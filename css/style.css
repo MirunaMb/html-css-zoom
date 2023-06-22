@@ -11,6 +11,7 @@ html{
     justify-content: flex-end;
     height: 80px;
     background-color: black;
+    height: calc(100% - 150px);
 }
 
 
@@ -20,7 +21,9 @@ body{
 }
 .item{
     display: flex;
-    color: grey;
+    color:white;
+    background-color: grey;
+    padding: 10px;
 }
 .fa-light{
     color: white;
@@ -50,7 +53,19 @@ body{
 footer{
     display: flex;
     justify-content: space-between;
+    height: 150px;
+    background-color:grey;
+    
 }
 .info-icon{
     color: white;
+    line-height: normal;
+}
+.share-icon{
+    color: green;
+}
+.end-icon{
+    color: red;
+    background-color: grey;
+    padding: 15px;
 }
