@@ -1,5 +1,56 @@
+html{
+    color: black;
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    background-color: black;
+}
+
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+.item{
+    display: flex;
+    color: grey;
+}
+.fa-light{
+    color: white;
+}
+.fa-solid{
+    color: white;
+}
+.container{
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+   
+}
+.card{
+    position: relative;
+    width: calc(100% / 7);
+    margin:5px 5px;
+}
+.speaker{
+    position: absolute;
+    bottom:0;
+    background-color: rgba(128, 128, 128, 0.6 );
+    padding: 5px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.info-icon{
+    color: white;
 }
