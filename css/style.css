@@ -9,9 +9,16 @@ html{
 .header{
     display: flex;
     justify-content: flex-end;
-    height: 80px;
+    height: 60px;
     background-color: black;
-    height: calc(100% - 150px);
+   
+}
+.speaking-item{
+ color: aliceblue;
+ background-color: grey;
+ margin-right: 8px;
+ padding: 4px;
+ border-radius: 9px;
 }
 
 
@@ -23,7 +30,8 @@ body{
     display: flex;
     color:white;
     background-color: grey;
-    padding: 10px;
+    padding: 2px;
+    border-radius: 3px;
 }
 .fa-light{
     color: white;
@@ -31,20 +39,21 @@ body{
 .fa-solid{
     color: white;
 }
-.container{
+.participants-container{
     display: flex;
+    height: calc(100vh - 60px - 100px);
     background-color: black;
     flex-wrap: wrap;
    
 }
 .card{
     position: relative;
-    width: calc(100% / 7);
-    margin:5px 5px;
+    /* width: calc(100% / 7); */
+    margin: 5px 39px;
 }
 .speaker{
     position: absolute;
-    bottom:0;
+    bottom: 36px;
     background-color: rgba(128, 128, 128, 0.6 );
     padding: 5px;
     color: white;
@@ -53,19 +62,28 @@ body{
 footer{
     display: flex;
     justify-content: space-between;
-    height: 150px;
+    height: 100px;
     background-color:grey;
     
 }
-.info-icon{
-    color: white;
-    line-height: normal;
+.footer-section{
+    display: flex;
+    align-items: center;
 }
-.share-icon{
-    color: green;
+.icons-set{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
-.end-icon{
-    color: red;
-    background-color: grey;
-    padding: 15px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
